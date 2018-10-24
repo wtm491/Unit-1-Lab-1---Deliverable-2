@@ -1,3 +1,8 @@
+//Javascript logic for deliverable 2! I do realize this could have been achieved far more elegantly with the --
+// use of loops and most likely functions, but I tried to overcomplicate it attempting that.
+// This gets the job done so I figured I would stick with it this time :)  Excited to improve on this too!!
+
+// Initialize variables to get user input
 var eventType = prompt("Please enter the event type: ");
 var tempFahr = prompt("Please enter the tempature: ");
 
@@ -42,6 +47,7 @@ if(eventType == "formal" || tempFahr > 70){
 var result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear no jacket and a suit!";
 }
 
-
+// Push result string to console
+//Print to screen with alert function
 console.log(result);
 alert(result);
