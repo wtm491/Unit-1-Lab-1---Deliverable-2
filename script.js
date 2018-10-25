@@ -33,7 +33,7 @@ if(eventType == "formal" || tempFahr < 54){
  result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a coat and a suit!";
 } else if(eventType == "formal" || tempFahr >= 54 || tempFahr <= 70){
  result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a jacket and a suit!";
-} else (eventType == "formal" || tempFahr > 70){
+} else {
  result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear no jacket and a suit!";
 }
 
