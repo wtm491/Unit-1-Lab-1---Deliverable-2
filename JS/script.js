@@ -1,5 +1,5 @@
 //Javascript logic for deliverable 2!
-//Function implementation - This was fun to code!
+
 
 
 // Initialize variables to get user input
@@ -10,7 +10,7 @@ var result;
 
 // If casual event - run casualEvent function
 if(eventType == "casual"){
-  casualEvent(tempFahr);
+  casualEvent(tempFahr);  // Push temp variable into function call!! 
 }
 
 // If semi-formal event - run semiFormalEvent function
