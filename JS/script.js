@@ -29,11 +29,11 @@ if(eventType == "formal"){
 // Function for casual event
 function casualEvent(tempFahr){
 if(tempFahr < 54){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a coat and SOMETHING COMFY!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear SOMETHING COMFY and A COAT!";
 } else if(tempFahr >= 54 && tempFahr <= 70){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a jacket and SOMETHING COMFY!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear SOMETHING COMFY and A JACKET!";
 } else if(tempFahr > 70){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear NO jacket and SOMETHING COMFY!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear SOMETHING COMFY and YOU WILL NOT NEED A JACKET!";
 }
 
 return result;
@@ -42,11 +42,11 @@ return result;
 // Function for semi-formal event
 function semiFormalEvent(tempFahr){
 if(tempFahr < 54){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a coat and a POLO!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear A POLO and A COAT!";
 } else if(tempFahr >= 54 && tempFahr <= 70){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a jacket and a POLO!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear A POLO and A JACKET!";
 } else if(tempFahr > 70){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear NO jacket and a POLO!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear A POLO and YOU WILL NOT NEED A JACKET!";
 }
 
 return result;
@@ -55,11 +55,11 @@ return result;
 // Function for formal event
 function formalEvent(tempFahr){
 if(tempFahr < 54){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a coat and a SUIT!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear A SUIT and A COAT!";
 } else if(tempFahr >= 54 && tempFahr <= 70){
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear a jacket and a SUIT!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear A SUIT and A JACKET!";
 } else if(tempFahr > 70) {
- result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear NO jacket and a SUIT!";
+ result = "Since it is " + tempFahr + " degrees out and the event is " + eventType + ", you should wear A SUIT and YOU WILL NOT NEED A JACKET!";
 }
 
 return result;
