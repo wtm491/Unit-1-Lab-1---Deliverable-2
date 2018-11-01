@@ -1,4 +1,4 @@
-//Javascript logic for deliverable 2!
+//FINAL Javascript logic for deliverable 2
 
 
 
@@ -10,7 +10,7 @@ var result;
 
 // If casual event - run casualEvent function
 if(eventType == "casual"){
-  casualEvent(tempFahr);  // Push temp variable into function call!! 
+  casualEvent(tempFahr);  // Push temp variable into function call!!
 }
 
 // If semi-formal event - run semiFormalEvent function
